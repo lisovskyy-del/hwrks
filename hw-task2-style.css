@@ -1,0 +1,32 @@
+:root {
+  --primary-color: rgb(167, 167, 167);
+  --secondary-color: rgb(104, 104, 104);
+  --text-color: white;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  display: block;
+  position: relative;
+  background-color: var(--primary-color);
+  height: 5em;
+  width: 15em;
+  border: 0px;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.button__image {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 30px;
+}
+
+.button__text {
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
